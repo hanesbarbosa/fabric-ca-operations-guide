@@ -28,10 +28,10 @@ curl -sSL https://bit.ly/2wIQ3BD | bash -s
 curl -sSL https://bit.ly/2w4dOn9 -o ./configtx.yaml
 ```
 
-4 - Set your environment variable FABRIC_CFG_PATH to be able to create the genesis block at /tmp/hyperledger/org0/orderer/:
+4 - Set your environment variable FABRIC_CFG_PATH to be able to create the genesis block and channel transaction at /tmp/hyperledger/org0/orderer/:
 
 ```bash
-curl -sSL https://bit.ly/3dLJkaG | bash -s
+curl -sSL https://bit.ly/2wMHFB8 | bash -s
 ```
 
 5 - Since the genesis block is available, now we can create the orderer image. We are also creating all the peers and cli containers tool:
