@@ -3,9 +3,9 @@ The Hyperledger Fabric guide that illustrates how to use Fabric CA to setup a Fa
 
 1 - Execute tearup-docker-cas.sh to create all the Docker images for the CAs:
 
-.. code:: bash
-
+```bash
 curl -sSL https://bit.ly/2JsEEZo | bash -s
+```
 
 You can check the created images by issuing the command:
 
